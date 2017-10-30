@@ -5,7 +5,7 @@
 const name = 'Super Helper'
 
 const host = ''
-const port = 8088
+const port = process.env.PORT || 8088
 
 // create server
 const restify = require('restify')
