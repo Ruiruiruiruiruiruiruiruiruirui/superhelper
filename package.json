@@ -1,0 +1,32 @@
+{
+  "name": "superhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "NODE_DEBUG=request node index.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruiruiruiruiruiruiruiruiruirui/superhelper.git"
+  },
+  "author": "Rui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruiruiruiruiruiruiruiruiruirui/superhelper/issues"
+  },
+  "homepage": "https://github.com/Ruiruiruiruiruiruiruiruiruirui/superhelper#readme",
+  "dependencies": {
+    "api.ai": "^1.0.3",
+    "forever": "^0.15.3",
+    "restify": "^6.2.3",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-router": "^0.2.1",
+    "se7ensky-restify-preflight": "^0.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
